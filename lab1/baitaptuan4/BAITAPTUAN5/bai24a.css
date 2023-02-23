@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.TONG{
+    width: 1000px;
+    height: 820px;
+    border: 1px;
+    margin-top: 30px;
+    box-shadow: 6px 6px 10px burlywood , -6px -6px 10px burlywood;
+    /* màu loang của khung  */
+}
+.KHUNG{
+    position: absolute;
+    width: 980px;
+    height: 800px;
+    border: 15px solid #3897c4;
+    margin-top: 10px;
+    margin-left: 10px ;
+}
+header{
+    width: 90%;
+    height: 150px;
+    border-bottom: 1px solid burlywood;
+}
+nav{
+    width: 90%;
+    height: 50px;
+    border-bottom: 1px solid burlywood;
+
+}
+section{
+    width: 90%;
+    height: 583px;
+}
+.cafe{
+    font-size: 50px;
+    font-weight: bold;
+    color: #3897c4;
+    text-shadow: 4px 4px 12px  #3897c4;
+}
+.c1 li{
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+    line-height: 50px;
+}
+.c1 li a{
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px dotted yellow; 
+    /* đóng khung  */
+    border-radius:10px ;
+    /* bo góc */
+    height: 40px;
+    margin-top: 3px;
+    /* cách xuông */
+    text-align: center;
+    /* canh giua chữ */
+    
+}
+.c1 li:hover{
+
+}
+/* khi cham chuột tới đổi màu chữ */
+.h1a{
+    margin-right: 10px;
+
+}
+a:hover{
+    text-transform: uppercase;
+    /* chuột vào thì nó lớn lên */
+    color: blueviolet;
+}
+img{
+    margin-left: 10px;
+    width: 500px;
+    height: 400px;
+}
